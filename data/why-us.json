@@ -1,0 +1,52 @@
+[
+  {
+    "order": 1,
+    "icon": "fa-hand-holding-heart",
+    "title": "Compassionate Team"
+  },
+  {
+    "order": 2,
+    "icon": "fa-x-ray",
+    "title": "Modern Equipment"
+  },
+  {
+    "order": 3,
+    "icon": "fa-microscope",
+    "title": "Advanced Diagnostics"
+  },
+  {
+    "order": 4,
+    "icon": "fa-truck-medical",
+    "title": "Emergency Services"
+  },
+  {
+    "order": 5,
+    "icon": "fa-dove",
+    "title": "Fear-Free Handling"
+  },
+  {
+    "order": 6,
+    "icon": "fa-clipboard-list",
+    "title": "Personalized Plans"
+  },
+  {
+    "order": 7,
+    "icon": "fa-tags",
+    "title": "Affordable Wellness"
+  },
+  {
+    "order": 8,
+    "icon": "fa-user-doctor",
+    "title": "Experienced Specialists"
+  },
+  {
+    "order": 9,
+    "icon": "fa-broom",
+    "title": "Clean & Safe Space"
+  },
+  {
+    "order": 10,
+    "icon": "fa-calendar-check",
+    "title": "Easy Scheduling"
+  }
+]

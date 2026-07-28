@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Dr. Maya Alvarez",
+    "title": "Lead Veterinarian & Medical Director",
+    "qual": "DVM, University of California Davis",
+    "years": 16,
+    "expertise": "Internal medicine, soft-tissue surgery",
+    "interests": "Senior pet care, diagnostics",
+    "photo": "https://plus.unsplash.com/premium_photo-1661916447474-235409b19e16?auto=format&fit=crop&w=600&q=80",
+    "order": 1
+  },
+  {
+    "name": "Dr. Owen Bennett",
+    "title": "Associate Veterinarian",
+    "qual": "DVM, Cornell University",
+    "years": 9,
+    "expertise": "Orthopedic surgery, sports medicine",
+    "interests": "Working & performance dogs",
+    "photo": "https://images.unsplash.com/photo-1637059824899-a441006a6875?auto=format&fit=crop&w=600&q=80",
+    "order": 2
+  },
+  {
+    "name": "Dr. Priya Nair",
+    "title": "Feline & Exotic Specialist",
+    "qual": "DVM, DACVIM (Feline Practice)",
+    "years": 12,
+    "expertise": "Feline medicine, exotic & pocket pets",
+    "interests": "Dermatology, nutrition",
+    "photo": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=600&q=80",
+    "order": 3
+  },
+  {
+    "name": "Dr. Samuel Ortiz",
+    "title": "Emergency & Critical Care",
+    "qual": "DVM, DACVECC",
+    "years": 11,
+    "expertise": "Emergency medicine, toxicology",
+    "interests": "Trauma stabilization",
+    "photo": "https://images.unsplash.com/photo-1673865641073-4479f93a7776?auto=format&fit=crop&w=600&q=80",
+    "order": 4
+  }
+]

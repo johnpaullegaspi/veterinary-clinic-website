@@ -1,0 +1,28 @@
+{
+  "eyebrow": "Beyond the Clinic",
+  "heading": "Adoption & Community",
+  "body": "We believe a healthier community starts outside our doors too. Fernwood partners with local shelters and hosts free educational events year-round.",
+  "items": [
+    {
+      "icon": "fa-house-heart",
+      "text": "Monthly pet adoption events with Cedar Falls Animal Rescue"
+    },
+    {
+      "icon": "fa-hands-holding-child",
+      "text": "Ongoing partnerships with 3 regional rescue organizations"
+    },
+    {
+      "icon": "fa-chalkboard-user",
+      "text": "Free pet education seminars, open to the public"
+    },
+    {
+      "icon": "fa-hand-holding-dollar",
+      "text": "Charity care fund for families facing hardship"
+    }
+  ],
+  "ctaLabel": "Partner With Us",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1700665537604-412e89a285c3?auto=format&fit=crop&w=800&q=80",
+    "alt": "A family sitting together with their dog, part of a community adoption event"
+  }
+}

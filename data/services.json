@@ -1,0 +1,134 @@
+[
+  {
+    "order": 1,
+    "icon": "fa-stethoscope",
+    "name": "Wellness Exams",
+    "desc": "Nose-to-tail checkups that catch problems early."
+  },
+  {
+    "order": 2,
+    "icon": "fa-syringe",
+    "name": "Vaccinations",
+    "desc": "Core and lifestyle vaccines tailored to your pet."
+  },
+  {
+    "order": 3,
+    "icon": "fa-paw",
+    "name": "Puppy & Kitten Care",
+    "desc": "A gentle start: first exams, deworming, and guidance."
+  },
+  {
+    "order": 4,
+    "icon": "fa-shield-heart",
+    "name": "Preventive Healthcare",
+    "desc": "Screenings and plans that keep small issues small."
+  },
+  {
+    "order": 5,
+    "icon": "fa-tooth",
+    "name": "Dental Care",
+    "desc": "Cleanings, extractions, and at-home dental coaching."
+  },
+  {
+    "order": 6,
+    "icon": "fa-scissors",
+    "name": "Pet Grooming",
+    "desc": "Bathing, trims, and nail care in a calm, fear-free space."
+  },
+  {
+    "order": 7,
+    "icon": "fa-kit-medical",
+    "name": "Pet Surgery",
+    "desc": "Soft-tissue and orthopedic surgery with in-house recovery."
+  },
+  {
+    "order": 8,
+    "icon": "fa-heart-pulse",
+    "name": "Spay & Neuter",
+    "desc": "Safe, routine procedures with same-day discharge."
+  },
+  {
+    "order": 9,
+    "icon": "fa-truck-medical",
+    "name": "Emergency Care",
+    "desc": "Urgent treatment when your pet needs it most."
+  },
+  {
+    "order": 10,
+    "icon": "fa-vial",
+    "name": "Laboratory Testing",
+    "desc": "In-house bloodwork and diagnostics with fast results."
+  },
+  {
+    "order": 11,
+    "icon": "fa-x-ray",
+    "name": "Digital X-Rays",
+    "desc": "High-resolution imaging read the same day."
+  },
+  {
+    "order": 12,
+    "icon": "fa-wave-square",
+    "name": "Ultrasound",
+    "desc": "Non-invasive imaging for soft tissue and pregnancy."
+  },
+  {
+    "order": 13,
+    "icon": "fa-microchip",
+    "name": "Microchipping",
+    "desc": "Permanent ID that reunites lost pets with families."
+  },
+  {
+    "order": 14,
+    "icon": "fa-bug",
+    "name": "Parasite Prevention",
+    "desc": "Heartworm, intestinal parasite testing and prevention."
+  },
+  {
+    "order": 15,
+    "icon": "fa-bug-slash",
+    "name": "Flea & Tick Treatment",
+    "desc": "Year-round protection plans for every climate."
+  },
+  {
+    "order": 16,
+    "icon": "fa-bowl-food",
+    "name": "Nutrition Counseling",
+    "desc": "Diet plans for weight, allergies, and life stage."
+  },
+  {
+    "order": 17,
+    "icon": "fa-heart-circle-plus",
+    "name": "Senior Pet Care",
+    "desc": "Extra support for aging joints, organs, and minds."
+  },
+  {
+    "order": 18,
+    "icon": "fa-notes-medical",
+    "name": "Dermatology",
+    "desc": "Relief for allergies, hot spots, and chronic skin issues."
+  },
+  {
+    "order": 19,
+    "icon": "fa-bone",
+    "name": "Orthopedic Care",
+    "desc": "ACL repair, fracture care, and mobility support."
+  },
+  {
+    "order": 20,
+    "icon": "fa-feather",
+    "name": "Exotic Pet Care",
+    "desc": "Birds, reptiles, and small mammals welcome."
+  },
+  {
+    "order": 21,
+    "icon": "fa-passport",
+    "name": "Pet Travel Certificates",
+    "desc": "Health certificates for domestic and international travel."
+  },
+  {
+    "order": 22,
+    "icon": "fa-hand-holding-heart",
+    "name": "End-of-Life Care",
+    "desc": "Gentle, dignified support for pets and families."
+  }
+]

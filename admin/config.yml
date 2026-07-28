@@ -1,0 +1,287 @@
+# Use DecapBridge classic auth (required)
+backend:
+  name: git-gateway
+  repo: johnpaullegaspi/veterinary-clinic-website
+  branch: main
+  identity_url: https://auth.decapbridge.com/sites/3f901075-0744-4e31-ae72-5aa6a6ca7039
+  gateway_url: https://gateway.decapbridge.com
+  # See who did what (optional)
+  commit_messages:
+    create: Create {{collection}} "{{slug}}" - {{author-name}} <{{author-login}}> via DecapBridge
+    update: Update {{collection}} "{{slug}}" - {{author-name}} <{{author-login}}> via DecapBridge
+    delete: Delete {{collection}} "{{slug}}" - {{author-name}} <{{author-login}}> via DecapBridge
+    uploadMedia: Upload "{{path}}" - {{author-name}} <{{author-login}}> via DecapBridge
+    deleteMedia: Delete "{{path}}" - {{author-name}} <{{author-login}}> via DecapBridge
+    openAuthoring: Message {{message}} - {{author-name}} <{{author-login}}> via DecapBridge
+# Better Decap + Bridge logo (optional)
+logo_url: https://decapbridge.com/decapcms-with-bridge.svg
+
+site_url: https://fernwood-animal-hospital.netlify.app
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+
+  # ---------------- SINGLETON SETTINGS ----------------
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - name: "site"
+        label: "Clinic Info (phone, address, hours, social)"
+        file: "content/settings/site.json"
+        fields:
+          - { name: name, label: "Clinic Name", widget: string }
+          - { name: tagline, label: "Tagline (shown under name in nav)", widget: string }
+          - { name: founded, label: "Founded badge (e.g. 'Est. 2011')", widget: string }
+          - { name: phone, label: "Main Phone (display)", widget: string }
+          - { name: phoneHref, label: "Main Phone (tel: link, digits only, e.g. +15550142)", widget: string }
+          - { name: emergencyPhone, label: "Emergency Phone (display)", widget: string }
+          - { name: emergencyPhoneHref, label: "Emergency Phone (tel: link)", widget: string }
+          - { name: email, label: "Email", widget: string }
+          - { name: address, label: "Address", widget: string }
+          - { name: hours, label: "Business Hours", widget: string }
+          - { name: parking, label: "Parking Note", widget: string }
+          - { name: mapEmbedUrl, label: "Google Maps Embed URL", widget: string }
+          - { name: whatsapp, label: "WhatsApp Link (https://wa.me/...)", widget: string }
+          - { name: footerBlurb, label: "Footer Blurb", widget: text }
+          - name: social
+            label: "Social Links"
+            widget: object
+            fields:
+              - { name: facebook, widget: string, required: false }
+              - { name: instagram, widget: string, required: false }
+              - { name: tiktok, widget: string, required: false }
+              - { name: youtube, widget: string, required: false }
+
+      - name: "hero"
+        label: "Hero Section"
+        file: "content/settings/hero.json"
+        fields:
+          - { name: eyebrow, label: "Eyebrow Label", widget: string }
+          - { name: headline, label: "Headline", widget: string }
+          - { name: subheadline, label: "Subheadline", widget: text }
+          - { name: primaryCtaLabel, label: "Primary Button Label", widget: string }
+          - { name: emergencyCtaLabel, label: "Emergency Button Label", widget: string }
+          - name: trustBadges
+            label: "Trust Badges"
+            widget: list
+            fields:
+              - { name: icon, label: "Font Awesome icon class (e.g. fa-shield-heart)", widget: string }
+              - { name: text, widget: string }
+          - name: images
+            label: "Hero Images"
+            widget: object
+            fields:
+              - name: main
+                widget: object
+                fields:
+                  - { name: src, label: "Image URL", widget: string }
+                  - { name: alt, label: "Alt Text", widget: string }
+              - name: secondary
+                widget: object
+                fields:
+                  - { name: src, label: "Image URL", widget: string }
+                  - { name: alt, label: "Alt Text", widget: string }
+          - name: stats
+            label: "Floating Stat Cards (exactly 2)"
+            widget: list
+            fields:
+              - { name: value, widget: string }
+              - { name: label, widget: string }
+
+      - name: "about"
+        label: "About Section"
+        file: "content/settings/about.json"
+        fields:
+          - { name: eyebrow, widget: string }
+          - { name: heading, widget: string }
+          - { name: body, widget: text }
+          - name: mission
+            widget: object
+            fields: [{ name: title, widget: string }, { name: text, widget: text }]
+          - name: vision
+            widget: object
+            fields: [{ name: title, widget: string }, { name: text, widget: text }]
+          - name: values
+            widget: object
+            fields: [{ name: title, widget: string }, { name: text, widget: text }]
+          - name: counters
+            label: "Animated Counters (exactly 4)"
+            widget: list
+            fields:
+              - { name: target, widget: number, value_type: int }
+              - { name: label, widget: string }
+          - name: images
+            widget: object
+            fields:
+              - name: a
+                widget: object
+                fields: [{ name: src, widget: string }, { name: alt, widget: string }]
+              - name: b
+                widget: object
+                fields: [{ name: src, widget: string }, { name: alt, widget: string }]
+              - name: c
+                widget: object
+                fields: [{ name: src, widget: string }, { name: alt, widget: string }]
+
+      - name: "community"
+        label: "Community & Adoption Section"
+        file: "content/settings/community.json"
+        fields:
+          - { name: eyebrow, widget: string }
+          - { name: heading, widget: string }
+          - { name: body, widget: text }
+          - name: items
+            label: "Bullet Points"
+            widget: list
+            fields:
+              - { name: icon, label: "Font Awesome icon class", widget: string }
+              - { name: text, widget: string }
+          - { name: ctaLabel, label: "Button Label", widget: string }
+          - name: image
+            widget: object
+            fields: [{ name: src, widget: string }, { name: alt, widget: string }]
+
+      - name: "emergency"
+        label: "Emergency Section"
+        file: "content/settings/emergency.json"
+        fields:
+          - { name: eyebrowText, label: "Eyebrow Label", widget: string }
+          - { name: heading, widget: string }
+          - { name: body, widget: text }
+          - { name: hoursNote, widget: string }
+          - name: steps
+            label: "Before You Arrive — Steps"
+            widget: list
+            field: { name: step, widget: string }
+          - { name: ctaLabel, label: "Button Label", widget: string }
+
+      - name: "section-headings"
+        label: "Section Headings (eyebrow/title/subtext per section)"
+        file: "content/settings/section-headings.json"
+        fields:
+          - name: doctors
+            widget: object
+            fields: &heading_fields
+              - { name: eyebrow, widget: string }
+              - { name: heading, widget: string }
+              - { name: subtext, widget: string, required: false }
+          - { name: services, widget: object, fields: *heading_fields }
+          - { name: whyUs, label: "Why Us", widget: object, fields: *heading_fields }
+          - { name: wellness, widget: object, fields: *heading_fields }
+          - { name: gallery, widget: object, fields: *heading_fields }
+          - { name: testimonials, widget: object, fields: *heading_fields }
+          - { name: booking, widget: object, fields: *heading_fields }
+          - { name: tips, widget: object, fields: *heading_fields }
+          - { name: facilities, widget: object, fields: *heading_fields }
+          - { name: faq, widget: object, fields: *heading_fields }
+          - { name: contact, widget: object, fields: *heading_fields }
+
+  # ---------------- FOLDER COLLECTIONS ----------------
+  - name: "vets"
+    label: "Veterinarians"
+    folder: "content/vets"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: order, label: "Display Order", widget: number, value_type: int }
+      - { name: name, widget: string }
+      - { name: title, widget: string }
+      - { name: qual, label: "Qualifications", widget: string }
+      - { name: years, label: "Years of Experience", widget: number, value_type: int }
+      - { name: expertise, widget: string }
+      - { name: interests, label: "Special Interests", widget: string }
+      - { name: photo, label: "Photo URL", widget: string }
+
+  - name: "services"
+    label: "Services"
+    folder: "content/services"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: order, label: "Display Order", widget: number, value_type: int }
+      - { name: icon, label: "Font Awesome icon class (e.g. fa-tooth)", widget: string }
+      - { name: name, widget: string }
+      - { name: desc, label: "Short Description", widget: text }
+
+  - name: "wellness-plans"
+    label: "Wellness Plans"
+    folder: "content/wellness-plans"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: order, label: "Display Order", widget: number, value_type: int }
+      - { name: name, widget: string }
+      - { name: icon, label: "Font Awesome icon class", widget: string }
+      - { name: price, label: "Monthly Price (USD)", widget: number }
+      - { name: feats, label: "Included Features", widget: list, field: { name: feature, widget: string } }
+      - { name: featured, label: "Highlight as 'Most Popular'?", widget: boolean, default: false }
+
+  - name: "gallery"
+    label: "Gallery Photos"
+    folder: "content/gallery"
+    create: true
+    slug: "photo-{{fields.order}}"
+    fields:
+      - { name: order, label: "Display Order", widget: number, value_type: int }
+      - name: cat
+        label: "Category"
+        widget: select
+        options: [pets, team, facilities, grooming, surgery, diagnostics, community]
+      - { name: img, label: "Image URL", widget: string }
+      - { name: caption, widget: string }
+
+  - name: "testimonials"
+    label: "Testimonials"
+    folder: "content/testimonials"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: order, label: "Display Order", widget: number, value_type: int }
+      - { name: name, label: "Owner Name", widget: string }
+      - { name: pet, label: "Pet name · breed", widget: string }
+      - { name: rating, widget: number, value_type: int, min: 1, max: 5, default: 5 }
+      - { name: story, widget: text }
+      - { name: photo, label: "Photo URL", widget: string }
+
+  - name: "tips"
+    label: "Pet Care Tips"
+    folder: "content/tips"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: order, label: "Display Order", widget: number, value_type: int }
+      - { name: icon, label: "Font Awesome icon class", widget: string }
+      - { name: tag, label: "Category Tag", widget: string }
+      - { name: title, widget: string }
+      - { name: excerpt, widget: text }
+
+  - name: "faq"
+    label: "FAQ"
+    folder: "content/faq"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: order, label: "Display Order", widget: number, value_type: int }
+      - { name: q, label: "Question", widget: string }
+      - { name: a, label: "Answer", widget: text }
+
+  - name: "awards"
+    label: "Awards & Certifications"
+    folder: "content/awards"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: order, label: "Display Order", widget: number, value_type: int }
+      - { name: icon, label: "Font Awesome icon class", widget: string }
+      - { name: text, widget: string }
+
+  - name: "why-us"
+    label: "Why Choose Us Features"
+    folder: "content/why-us"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: order, label: "Display Order", widget: number, value_type: int }
+      - { name: icon, label: "Font Awesome icon class", widget: string }
+      - { name: title, widget: string }

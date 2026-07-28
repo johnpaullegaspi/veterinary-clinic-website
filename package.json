@@ -1,0 +1,12 @@
+{
+  "name": "fernwood-animal-hospital-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fernwood Animal Hospital — static site with a Decap CMS content layer, deployable to Netlify.",
+  "scripts": {
+    "build": "node scripts/build-content.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

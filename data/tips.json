@@ -1,0 +1,44 @@
+[
+  {
+    "order": 1,
+    "icon": "fa-calendar-check",
+    "tag": "Wellness",
+    "title": "How Often Should My Pet Visit the Vet?",
+    "excerpt": "A simple age-by-age guide to checkup frequency, from playful puppy to golden years."
+  },
+  {
+    "order": 2,
+    "icon": "fa-syringe",
+    "tag": "Prevention",
+    "title": "Vaccination Schedule Explained",
+    "excerpt": "What core and lifestyle vaccines do, and when your pet actually needs them."
+  },
+  {
+    "order": 3,
+    "icon": "fa-triangle-exclamation",
+    "tag": "Emergency",
+    "title": "Signs Your Pet Needs Immediate Care",
+    "excerpt": "The red-flag symptoms that mean “call now,” not “wait and see.”"
+  },
+  {
+    "order": 4,
+    "icon": "fa-bowl-food",
+    "tag": "Nutrition",
+    "title": "Nutrition Tips for Every Life Stage",
+    "excerpt": "How to read a pet food label and avoid the most common feeding mistakes."
+  },
+  {
+    "order": 5,
+    "icon": "fa-tooth",
+    "tag": "Dental",
+    "title": "Dental Health for Pets",
+    "excerpt": "Why 80% of pets have dental disease by age three — and how to prevent it."
+  },
+  {
+    "order": 6,
+    "icon": "fa-bug-slash",
+    "tag": "Prevention",
+    "title": "Flea & Tick Prevention 101",
+    "excerpt": "Year-round protection tips for every season and every climate."
+  }
+]

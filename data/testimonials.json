@@ -1,0 +1,50 @@
+[
+  {
+    "order": 1,
+    "name": "Maria D.",
+    "pet": "Bruno · Labrador Retriever",
+    "rating": 5,
+    "story": "Our Labrador received outstanding care after his surgery — the team called to check on him for a week straight.",
+    "photo": "https://images.unsplash.com/photo-1700665537604-412e89a285c3?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "order": 2,
+    "name": "James K.",
+    "pet": "Whiskers · Domestic Shorthair",
+    "rating": 5,
+    "story": "They treated our cat like family from the very first visit. I finally found a vet I trust completely.",
+    "photo": "https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "order": 3,
+    "name": "Aisha R.",
+    "pet": "Coco · French Bulldog",
+    "rating": 5,
+    "story": "Highly recommended for emergency services — they took Coco in at 11pm without hesitation and saved her life.",
+    "photo": "https://images.unsplash.com/photo-1630359486912-4b085e38f1e7?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "order": 4,
+    "name": "Daniel P.",
+    "pet": "Mittens · Kitten",
+    "rating": 5,
+    "story": "Gentlest hands I've ever seen with a scared kitten. Mittens actually purred through her whole exam.",
+    "photo": "https://images.unsplash.com/photo-1728013274420-ed02b1f58887?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "order": 5,
+    "name": "Priya S.",
+    "pet": "Rosie · Golden Retriever mix",
+    "rating": 5,
+    "story": "The wellness plan has genuinely saved us money, and Rosie's checkups are actually something she looks forward to.",
+    "photo": "https://images.unsplash.com/photo-1630438994394-3deff7a591bf?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "order": 6,
+    "name": "Tom H.",
+    "pet": "Leo · Senior Terrier mix",
+    "rating": 5,
+    "story": "Dr. Alvarez talked us through every option for Leo's arthritis with so much patience. No pressure, just honesty.",
+    "photo": "https://images.unsplash.com/photo-1700665537650-1bf37979aae0?auto=format&fit=crop&w=300&q=80"
+  }
+]

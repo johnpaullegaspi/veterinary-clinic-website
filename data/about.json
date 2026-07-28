@@ -1,0 +1,49 @@
+{
+  "eyebrow": "About Fernwood",
+  "heading": "Fifteen years of gentle, advanced care",
+  "body": "Fernwood Animal Hospital opened in 2011 with a simple belief: outstanding medicine and genuine warmth aren't a trade-off. Today our AAHA-accredited hospital blends digital diagnostics, in-house surgery and dentistry, and a fear-free approach with the kind of unhurried attention every pet — and every pet parent — deserves.",
+  "mission": {
+    "title": "Mission",
+    "text": "Deliver compassionate, evidence-based care that keeps pets healthy at every life stage."
+  },
+  "vision": {
+    "title": "Vision",
+    "text": "Be the most trusted animal hospital in the region — for pets, and the people who love them."
+  },
+  "values": {
+    "title": "Values",
+    "text": "Empathy first, honest communication, and never rushing a decision that matters."
+  },
+  "counters": [
+    {
+      "target": 12400,
+      "label": "Happy Pets"
+    },
+    {
+      "target": 15,
+      "label": "Years of Service"
+    },
+    {
+      "target": 9800,
+      "label": "Successful Treatments"
+    },
+    {
+      "target": 98,
+      "label": "% Client Satisfaction"
+    }
+  ],
+  "images": {
+    "a": {
+      "src": "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=700&q=80",
+      "alt": "Bright, modern veterinary clinic interior"
+    },
+    "b": {
+      "src": "https://plus.unsplash.com/premium_photo-1663039950073-187c977da2e9?auto=format&fit=crop&w=600&q=80",
+      "alt": "Veterinarian using a stethoscope on a puppy in the consultation room"
+    },
+    "c": {
+      "src": "https://plus.unsplash.com/premium_photo-1661962620229-614e281fe009?auto=format&fit=crop&w=600&q=80",
+      "alt": "Two veterinary staff members carefully treating a small dog"
+    }
+  }
+}

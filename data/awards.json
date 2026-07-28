@@ -1,0 +1,22 @@
+[
+  {
+    "order": 1,
+    "icon": "fa-award",
+    "text": "AAHA Accredited Hospital"
+  },
+  {
+    "order": 2,
+    "icon": "fa-shield-heart",
+    "text": "Fear Free Certified Practice"
+  },
+  {
+    "order": 3,
+    "icon": "fa-trophy",
+    "text": "Best Animal Hospital — Cedar Falls Paws Awards"
+  },
+  {
+    "order": 4,
+    "icon": "fa-leaf",
+    "text": "Certified Green Business"
+  }
+]

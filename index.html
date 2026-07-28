@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fernwood Animal Hospital — Compassionate Veterinary Care</title>
+<meta name="description" content="Fernwood Animal Hospital provides compassionate, advanced veterinary care for every paw, feather, and fur. Book an appointment, meet our vets, and explore our wellness plans.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Fernwood Animal Hospital — Compassionate Care for Every Paw, Feather, and Fur">
+<meta property="og:description" content="Modern veterinary medicine with a loving touch. Wellness exams, surgery, dentistry, dermatology, emergency care and more.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://plus.unsplash.com/premium_photo-1661916447474-235409b19e16?auto=format&fit=crop&w=1200&q=80">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Fernwood Animal Hospital">
+<meta name="twitter:description" content="Compassionate Care for Every Paw, Feather, and Fur.">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&family=Nunito:ital,wght@0,500;0,600;0,700;1,600&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<!-- AOS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css">
+
+<link rel="stylesheet" href="css/styles.css">
+
+<!-- JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VeterinaryCare",
+  "name": "Fernwood Animal Hospital",
+  "image": "https://plus.unsplash.com/premium_photo-1661916447474-235409b19e16",
+  "telephone": "+1-555-0142",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "482 Willowmere Lane",
+    "addressLocality": "Cedar Falls",
+    "addressRegion": "CA",
+    "postalCode": "94582",
+    "addressCountry": "US"
+  },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "07:30", "closes": "19:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday"], "opens": "08:00", "closes": "17:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Sunday"], "opens": "09:00", "closes": "14:00" }
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- Page Loader -->
+<div id="page-loader" aria-hidden="true">
+  <svg class="loader-mark" viewBox="0 0 120 60" width="90" height="45">
+    <path id="loader-path" d="M0,30 L20,30 L28,10 L36,50 L44,20 L50,30 L70,30 L78,10 L86,50 L94,20 L100,30 L120,30" fill="none" stroke="#1E3B2E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+</div>
+
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<!-- Scroll progress / Vitals Trail -->
+<div class="vitals-progress" aria-hidden="true"><div class="vitals-progress-fill" id="vitalsProgress"></div></div>
+
+<!-- ============ NAV ============ -->
+<header class="site-nav" id="siteNav">
+  <div class="nav-inner">
+    <a href="#home" class="brand">
+      <svg width="34" height="34" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+        <path d="M24 44c-7-2-16-8-16-18a9 9 0 0 1 16-5.7A9 9 0 0 1 40 26c0 10-9 16-16 18Z" fill="var(--forest)"/>
+        <circle cx="14" cy="14" r="4.2" fill="var(--sage)"/>
+        <circle cx="24" cy="9" r="4.2" fill="var(--sage)"/>
+        <circle cx="34" cy="14" r="4.2" fill="var(--sage)"/>
+        <circle cx="9" cy="23" r="3.6" fill="var(--sage)"/>
+      </svg>
+      <span class="brand-text">Fernwood <em>Animal Hospital</em></span>
+    </a>
+
+    <nav class="nav-links" id="navLinks" aria-label="Primary">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#doctors">Our Vets</a>
+      <a href="#wellness">Wellness</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#tips">Pet Care Tips</a>
+      <a href="#faq">FAQs</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="icon-btn" id="langToggle" aria-label="Change language" title="Language">
+        <i class="fa-solid fa-globe"></i><span class="lang-label">EN</span>
+      </button>
+      <button class="icon-btn" id="darkModeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+      <a href="#booking" class="btn btn-primary btn-sm nav-cta">Book Appointment</a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main-content">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="hero-blobs" aria-hidden="true">
+    <svg class="blob blob-1" viewBox="0 0 200 200"><path fill="var(--sage-light)" d="M45.6,-58.3C58.4,-49.8,67.6,-34.6,71.6,-18.1C75.6,-1.6,74.4,16.2,66.6,30.4C58.8,44.6,44.4,55.2,28.6,62.1C12.8,69,-4.4,72.2,-20.5,68.4C-36.6,64.6,-51.6,53.8,-61.2,39.4C-70.8,25,-75,7,-71.9,-9.4C-68.8,-25.8,-58.4,-40.6,-45.1,-49.3C-31.8,-58,-15.9,-60.6,0.9,-61.8C17.7,-63,35.4,-62.8,45.6,-58.3Z" transform="translate(100 100)"/></svg>
+    <svg class="blob blob-2" viewBox="0 0 200 200"><path fill="var(--sky-light)" d="M39.9,-51.1C51.4,-41.6,60,-28.8,64.2,-14.2C68.4,0.4,68.2,16.8,61.3,30.1C54.4,43.4,40.8,53.6,25.7,59.8C10.6,66,-6,68.2,-21.8,64.5C-37.6,60.8,-52.6,51.2,-61.8,37.5C-71,23.8,-74.4,6,-71.5,-10.5C-68.6,-27,-59.4,-42.2,-46.5,-51.8C-33.6,-61.4,-16.8,-65.4,-1.1,-64C14.6,-62.6,29.2,-55.8,39.9,-51.1Z" transform="translate(100 100)"/></svg>
+    <i class="fa-solid fa-paw floaty floaty-1"></i>
+    <i class="fa-solid fa-leaf floaty floaty-2"></i>
+    <i class="fa-regular fa-heart floaty floaty-3"></i>
+    <i class="fa-solid fa-paw floaty floaty-4"></i>
+  </div>
+
+  <div class="hero-inner">
+    <div class="hero-copy" data-aos="fade-up">
+      <span class="eyebrow" id="heroEyebrow">Fernwood Animal Hospital · Est. 2011</span>
+      <h1 id="heroHeadline">Compassionate Care for Every Paw, Feather, and Fur</h1>
+      <p class="hero-sub" id="heroSubheadline">Providing exceptional veterinary care with advanced medical technology and a loving touch for every pet — from routine wellness visits to emergency medicine.</p>
+
+      <svg class="vitals-line" viewBox="0 0 520 60" preserveAspectRatio="none" aria-hidden="true">
+        <path id="vitalsHeroPath" d="M0,30 L40,30 L54,8 L68,52 L82,16 L94,30 L150,30 L164,8 L178,52 L192,16 L204,30 L260,30 L274,8 L288,52 L302,16 L314,30 L370,30 L384,8 L398,52 L412,16 L424,30 L480,30 L494,8 L508,52 L520,30" fill="none" stroke="var(--forest)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+
+      <div class="hero-ctas">
+        <a href="#booking" class="btn btn-primary"><span id="heroPrimaryCtaLabel">Book an Appointment</span></a>
+        <a href="#emergency" class="btn btn-urgent"><i class="fa-solid fa-phone-volume"></i> <span id="heroEmergencyCtaLabel">Emergency Contact</span></a>
+      </div>
+
+      <div class="hero-trust" id="heroTrust">
+        <div class="trust-item"><i class="fa-solid fa-shield-heart"></i> Fear-Free Certified</div>
+        <div class="trust-item"><i class="fa-solid fa-star"></i> 4.9/5 from 2,300+ reviews</div>
+        <div class="trust-item"><i class="fa-solid fa-clock"></i> Open 7 days a week</div>
+      </div>
+    </div>
+
+    <div class="hero-visual" data-aos="fade-left" data-aos-delay="150">
+      <div class="hero-collage">
+        <img class="hero-img hero-img-1" id="heroImgMain" src="https://plus.unsplash.com/premium_photo-1661916447474-235409b19e16?auto=format&fit=crop&w=900&q=80" alt="Veterinarian gently holding a small dog on the exam table" loading="eager">
+        <img class="hero-img hero-img-2" id="heroImgSecondary" src="https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?auto=format&fit=crop&w=600&q=80" alt="Smiling pet owner holding her tabby cat" loading="lazy">
+        <div class="floating-card fc-1">
+          <i class="fa-solid fa-paw"></i>
+          <div><strong id="heroStat1Value">12,400+</strong><span id="heroStat1Label">Happy pets treated</span></div>
+        </div>
+        <div class="floating-card fc-2">
+          <i class="fa-solid fa-user-doctor"></i>
+          <div><strong id="heroStat2Value">14 yrs</strong><span id="heroStat2Label">Avg. vet experience</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="#about" class="scroll-cue" aria-label="Scroll to learn more"><i class="fa-solid fa-chevron-down"></i></a>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section about" id="about">
+  <div class="container about-grid">
+    <div class="about-media" data-aos="fade-right">
+      <div class="about-collage">
+        <img id="aboutImgA" src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=700&q=80" alt="Bright, modern veterinary clinic interior" class="about-img about-img-a">
+        <img id="aboutImgB" src="https://plus.unsplash.com/premium_photo-1663039950073-187c977da2e9?auto=format&fit=crop&w=600&q=80" alt="Veterinarian using a stethoscope on a puppy in the consultation room" class="about-img about-img-b">
+        <img id="aboutImgC" src="https://plus.unsplash.com/premium_photo-1661962620229-614e281fe009?auto=format&fit=crop&w=600&q=80" alt="Two veterinary staff members carefully treating a small dog" class="about-img about-img-c">
+      </div>
+    </div>
+    <div class="about-copy" data-aos="fade-left">
+      <span class="eyebrow" id="aboutEyebrow">About Fernwood</span>
+      <h2 id="aboutHeading">Fifteen years of gentle, advanced care</h2>
+      <p id="aboutBody">Fernwood Animal Hospital opened in 2011 with a simple belief: outstanding medicine and genuine warmth aren't a trade-off. Today our AAHA-accredited hospital blends digital diagnostics, in-house surgery and dentistry, and a fear-free approach with the kind of unhurried attention every pet — and every pet parent — deserves.</p>
+
+      <div class="mv-grid">
+        <div class="mv-card"><i class="fa-solid fa-bullseye"></i><h3 id="missionTitle">Mission</h3><p id="missionText">Deliver compassionate, evidence-based care that keeps pets healthy at every life stage.</p></div>
+        <div class="mv-card"><i class="fa-solid fa-eye"></i><h3 id="visionTitle">Vision</h3><p id="visionText">Be the most trusted animal hospital in the region — for pets, and the people who love them.</p></div>
+        <div class="mv-card"><i class="fa-solid fa-heart"></i><h3 id="valuesTitle">Values</h3><p id="valuesText">Empathy first, honest communication, and never rushing a decision that matters.</p></div>
+      </div>
+
+      <div class="counters" id="counters">
+        <div class="counter"><span class="counter-num" data-target="12400">0</span><span class="counter-label">Happy Pets</span></div>
+        <div class="counter"><span class="counter-num" data-target="15">0</span><span class="counter-label">Years of Service</span></div>
+        <div class="counter"><span class="counter-num" data-target="9800">0</span><span class="counter-label">Successful Treatments</span></div>
+        <div class="counter"><span class="counter-num" data-target="98">0</span><span class="counter-label">% Client Satisfaction</span></div>
+      </div>
+
+      <a href="#doctors" class="text-link">Meet the team who'll care for your pet <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MEET OUR VETERINARIANS ============ -->
+<section class="section section-tint" id="doctors">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up" data-section-heading="doctors">
+      <span class="eyebrow">Meet the Team</span>
+      <h2>Meet Our Veterinarians</h2>
+      <p>Board-certified, endlessly patient, and just as obsessed with your pet as you are.</p>
+    </div>
+    <div class="vet-grid" id="vetGrid"></div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up" data-section-heading="services">
+      <span class="eyebrow">What We Treat</span>
+      <h2>Comprehensive Veterinary Services</h2>
+      <p>From first puppy visit to golden years, one team follows your pet through every stage.</p>
+    </div>
+    <div class="services-grid" id="servicesGrid"></div>
+  </div>
+</section>
+
+<!-- ============ WHY CHOOSE US ============ -->
+<section class="section section-forest" id="why-us">
+  <div class="container">
+    <div class="section-head light" data-aos="fade-up" data-section-heading="whyUs">
+      <span class="eyebrow eyebrow-light">Why Fernwood</span>
+      <h2>Why Pet Parents Choose Us</h2>
+    </div>
+    <div class="why-grid" id="whyGrid"></div>
+  </div>
+</section>
+
+<!-- ============ PET WELLNESS PROGRAMS ============ -->
+<section class="section" id="wellness">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up" data-section-heading="wellness">
+      <span class="eyebrow">Wellness Membership</span>
+      <h2>Pet Wellness Programs</h2>
+      <p>Predictable monthly pricing that bundles the care every pet needs, with no surprise bills.</p>
+    </div>
+    <div class="wellness-grid" id="wellnessGrid"></div>
+  </div>
+</section>
+
+<!-- ============ ADOPTION & COMMUNITY ============ -->
+<section class="section section-sand" id="community">
+  <div class="container community-grid">
+    <div class="community-copy" data-aos="fade-right">
+      <span class="eyebrow" id="communityEyebrow">Beyond the Clinic</span>
+      <h2 id="communityHeading">Adoption &amp; Community</h2>
+      <p id="communityBody">We believe a healthier community starts outside our doors too. Fernwood partners with local shelters and hosts free educational events year-round.</p>
+      <ul class="community-list" id="communityList">
+        <li><i class="fa-solid fa-house-heart"></i> Monthly pet adoption events with Cedar Falls Animal Rescue</li>
+        <li><i class="fa-solid fa-hands-holding-child"></i> Ongoing partnerships with 3 regional rescue organizations</li>
+        <li><i class="fa-solid fa-chalkboard-user"></i> Free pet education seminars, open to the public</li>
+        <li><i class="fa-solid fa-hand-holding-dollar"></i> Charity care fund for families facing hardship</li>
+      </ul>
+      <a href="#contact" class="btn btn-outline" id="communityCta">Partner With Us</a>
+    </div>
+    <div class="community-media" data-aos="fade-left">
+      <img id="communityImage" src="https://images.unsplash.com/photo-1700665537604-412e89a285c3?auto=format&fit=crop&w=800&q=80" alt="A family sitting together with their dog, part of a community adoption event" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section class="section" id="gallery">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up" data-section-heading="gallery">
+      <span class="eyebrow">Life at Fernwood</span>
+      <h2>Gallery</h2>
+    </div>
+    <div class="gallery-filters" id="galleryFilters"></div>
+    <div class="gallery-grid" id="galleryGrid"></div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close image"><i class="fa-solid fa-xmark"></i></button>
+  <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous image"><i class="fa-solid fa-chevron-left"></i></button>
+  <img id="lightboxImg" src="" alt="">
+  <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next image"><i class="fa-solid fa-chevron-right"></i></button>
+</div>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="section section-tint" id="testimonials">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up" data-section-heading="testimonials">
+      <span class="eyebrow">Client Stories</span>
+      <h2>What Pet Parents Say</h2>
+    </div>
+    <div class="testimonial-carousel">
+      <div class="testimonial-track" id="testimonialTrack"></div>
+      <div class="testimonial-dots" id="testimonialDots"></div>
+      <button class="carousel-arrow arrow-left" id="testiPrev" aria-label="Previous testimonial"><i class="fa-solid fa-chevron-left"></i></button>
+      <button class="carousel-arrow arrow-right" id="testiNext" aria-label="Next testimonial"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BOOKING ============ -->
+<section class="section" id="booking">
+  <div class="container booking-grid">
+    <div class="booking-copy" data-aos="fade-right" data-section-heading="booking">
+      <span class="eyebrow">Book a Visit</span>
+      <h2>Schedule Your Pet's Appointment</h2>
+      <p>Tell us about your pet and pick a time that works. Our care team confirms every request within one business hour.</p>
+      <ul class="booking-points">
+        <li><i class="fa-solid fa-circle-check"></i> Same-week appointments available</li>
+        <li><i class="fa-solid fa-circle-check"></i> Text and email reminders</li>
+        <li><i class="fa-solid fa-circle-check"></i> Free 10-minute new-patient consult</li>
+      </ul>
+      <div class="booking-media">
+        <img src="https://images.unsplash.com/photo-1553688738-a278b9f063e0?auto=format&fit=crop&w=500&q=80" alt="Fawn puppy waiting calmly, ready for its appointment" loading="lazy">
+      </div>
+    </div>
+
+    <form class="booking-form" id="bookingForm" data-aos="fade-left" novalidate>
+      <div class="form-row">
+        <div class="form-field">
+          <label for="ownerName">Owner Name *</label>
+          <input type="text" id="ownerName" name="ownerName" required>
+          <span class="field-error">Please enter your name.</span>
+        </div>
+        <div class="form-field">
+          <label for="petName">Pet Name *</label>
+          <input type="text" id="petName" name="petName" required>
+          <span class="field-error">Please enter your pet's name.</span>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-field">
+          <label for="species">Species *</label>
+          <select id="species" name="species" required>
+            <option value="">Select</option>
+            <option>Dog</option><option>Cat</option><option>Bird</option><option>Rabbit</option><option>Reptile</option><option>Other</option>
+          </select>
+          <span class="field-error">Please select a species.</span>
+        </div>
+        <div class="form-field">
+          <label for="breed">Breed</label>
+          <input type="text" id="breed" name="breed">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-field">
+          <label for="age">Age</label>
+          <input type="text" id="age" name="age" placeholder="e.g. 3 years">
+        </div>
+        <div class="form-field">
+          <label for="phone">Phone Number *</label>
+          <input type="tel" id="phone" name="phone" required>
+          <span class="field-error">Please enter a phone number.</span>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-field">
+          <label for="email">Email *</label>
+          <input type="email" id="email" name="email" required>
+          <span class="field-error">Please enter a valid email.</span>
+        </div>
+        <div class="form-field">
+          <label for="vetPref">Veterinarian Preference</label>
+          <select id="vetPref" name="vetPref">
+            <option value="">No preference</option>
+            <option>Dr. Maya Alvarez</option>
+            <option>Dr. Owen Bennett</option>
+            <option>Dr. Priya Nair</option>
+            <option>Dr. Samuel Ortiz</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-field">
+          <label for="prefDate">Preferred Date *</label>
+          <input type="date" id="prefDate" name="prefDate" required>
+          <span class="field-error">Please choose a date.</span>
+        </div>
+        <div class="form-field">
+          <label for="prefTime">Preferred Time *</label>
+          <input type="time" id="prefTime" name="prefTime" required>
+          <span class="field-error">Please choose a time.</span>
+        </div>
+      </div>
+      <div class="form-field">
+        <label for="serviceNeeded">Service Needed *</label>
+        <select id="serviceNeeded" name="serviceNeeded" required>
+          <option value="">Select a service</option>
+          <option>Wellness Exam</option><option>Vaccinations</option><option>Dental Care</option>
+          <option>Surgery Consult</option><option>Grooming</option><option>Emergency</option><option>Other</option>
+        </select>
+        <span class="field-error">Please select a service.</span>
+      </div>
+      <div class="form-field">
+        <label for="notes">Additional Notes</label>
+        <textarea id="notes" name="notes" rows="3" placeholder="Anything we should know before your visit?"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Book Appointment</button>
+      <p class="form-fineprint"><i class="fa-solid fa-lock"></i> Your information is kept private and used only to prepare for your visit.</p>
+    </form>
+  </div>
+</section>
+
+<!-- Success Modal -->
+<div class="modal" id="successModal" aria-hidden="true">
+  <div class="modal-card success-card">
+    <button class="modal-close" data-close-modal><i class="fa-solid fa-xmark"></i></button>
+    <div class="success-check"><i class="fa-solid fa-paw"></i></div>
+    <h3>Appointment Requested!</h3>
+    <p id="successMessage">We've received your request and will confirm your visit by phone or email within one business hour.</p>
+    <button class="btn btn-primary" data-close-modal>Done</button>
+  </div>
+</div>
+
+<!-- ============ EMERGENCY ============ -->
+<section class="section section-emergency" id="emergency">
+  <div class="container emergency-grid">
+    <div data-aos="fade-right">
+      <span class="eyebrow eyebrow-light"><i class="fa-solid fa-triangle-exclamation"></i> <span id="emergencyEyebrowText">Urgent Care</span></span>
+      <h2 id="emergencyHeading">Emergency &amp; After-Hours Care</h2>
+      <p id="emergencyBody">If your pet is in crisis, call us immediately — day or night. Our team will guide you through what to do before you arrive.</p>
+      <a href="tel:+15550199" class="emergency-phone" data-role="emergency-link"><i class="fa-solid fa-phone-volume"></i> <span data-role="emergency-text">(555) 019-9911</span></a>
+      <div class="emergency-hours"><i class="fa-solid fa-clock"></i> <span id="emergencyHoursNote">After-hours &amp; holidays: 24/7 emergency line staffed</span></div>
+    </div>
+    <div class="emergency-steps" data-aos="fade-left">
+      <h3>Before You Arrive</h3>
+      <ol id="emergencySteps">
+        <li>Call ahead so our team can prepare for your pet's condition.</li>
+        <li>Keep your pet warm, calm, and as still as safely possible.</li>
+        <li>Do not give food, water, or medication unless instructed.</li>
+        <li>Bring any medications or toxins your pet may have ingested.</li>
+      </ol>
+      <a href="tel:+15550199" class="btn btn-urgent btn-block" data-role="emergency-link"><i class="fa-solid fa-phone"></i> <span id="emergencyCtaLabel">Call Emergency Line Now</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PET CARE TIPS / BLOG ============ -->
+<section class="section" id="tips">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up" data-section-heading="tips">
+      <span class="eyebrow">Pet Parent Library</span>
+      <h2>Pet Care Tips</h2>
+    </div>
+    <div class="tips-grid" id="tipsGrid"></div>
+  </div>
+</section>
+
+<!-- ============ AWARDS / FACILITIES / INFECTION CONTROL ============ -->
+<section class="section section-sand" id="facilities">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up" data-section-heading="facilities">
+      <span class="eyebrow">Behind the Scenes</span>
+      <h2>Our Facilities &amp; Standards</h2>
+      <p>Modern equipment, rigorous infection control, and a hospital that's spotless from the lobby to the surgery suite.</p>
+    </div>
+
+    <div class="facilities-grid">
+      <div class="facility-card" data-aos="fade-up">
+        <img src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=500&q=80" alt="Clinic reception and waiting area" loading="lazy">
+        <h4>Reception &amp; Waiting Lounge</h4>
+      </div>
+      <div class="facility-card" data-aos="fade-up" data-aos-delay="100">
+        <img src="https://plus.unsplash.com/premium_photo-1663039950073-187c977da2e9?auto=format&fit=crop&w=500&q=80" alt="Consultation room with diagnostic equipment" loading="lazy">
+        <h4>Consultation Rooms</h4>
+      </div>
+      <div class="facility-card" data-aos="fade-up" data-aos-delay="200">
+        <img src="https://plus.unsplash.com/premium_photo-1661942274165-00cc8d55a93f?auto=format&fit=crop&w=500&q=80" alt="Sterile surgery suite preparation" loading="lazy">
+        <h4>Surgery Suite</h4>
+      </div>
+      <div class="facility-card" data-aos="fade-up" data-aos-delay="300">
+        <img src="https://images.unsplash.com/photo-1577175889968-f551f5944abd?auto=format&fit=crop&w=500&q=80" alt="Pet grooming area" loading="lazy">
+        <h4>Grooming Studio</h4>
+      </div>
+    </div>
+
+    <div class="infection-strip" data-aos="fade-up">
+      <div class="infection-item"><i class="fa-solid fa-hand-sparkles"></i> Hospital-grade sterilization between every patient</div>
+      <div class="infection-item"><i class="fa-solid fa-wind"></i> HEPA-filtered air exchange throughout the hospital</div>
+      <div class="infection-item"><i class="fa-solid fa-house-medical-circle-check"></i> Separate isolation ward for contagious cases</div>
+      <button class="text-link" id="virtualTourBtn"><i class="fa-solid fa-video"></i> Take the Virtual Tour</button>
+    </div>
+
+    <div class="awards-row" id="awardsRow"></div>
+  </div>
+</section>
+
+<!-- Virtual Tour Modal -->
+<div class="modal" id="tourModal" aria-hidden="true">
+  <div class="modal-card tour-card">
+    <button class="modal-close" data-close-modal><i class="fa-solid fa-xmark"></i></button>
+    <h3><i class="fa-solid fa-video"></i> Virtual Clinic Tour</h3>
+    <div class="tour-viewer">
+      <img id="tourImage" src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=1000&q=80" alt="Virtual tour view of the clinic">
+      <button class="tour-nav tour-prev" id="tourPrev" aria-label="Previous room"><i class="fa-solid fa-chevron-left"></i></button>
+      <button class="tour-nav tour-next" id="tourNext" aria-label="Next room"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+    <p class="tour-caption" id="tourCaption">Reception &amp; Waiting Lounge</p>
+  </div>
+</div>
+
+<!-- ============ FINANCING / PATIENT FORMS ============ -->
+<section class="section" id="forms">
+  <div class="container forms-grid">
+    <div class="forms-card" data-aos="fade-up">
+      <i class="fa-solid fa-file-lines"></i>
+      <h3>Patient Forms</h3>
+      <p>Save time at your visit by completing intake paperwork ahead of time.</p>
+      <a href="#" class="text-link" data-download-note>Download New Patient Form <i class="fa-solid fa-download"></i></a>
+    </div>
+    <div class="forms-card" data-aos="fade-up" data-aos-delay="100">
+      <i class="fa-solid fa-hand-holding-dollar"></i>
+      <h3>Financing Options</h3>
+      <p>We work with CareCredit and Scratchpay so cost is never a barrier to care.</p>
+      <a href="#" class="text-link" data-download-note>Learn About Payment Plans <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+    <div class="forms-card" data-aos="fade-up" data-aos-delay="200">
+      <i class="fa-solid fa-address-card"></i>
+      <h3>Patient Portal</h3>
+      <p>View records, request prescription refills, and message our team securely.</p>
+      <button class="text-link" id="portalBtn">Log In to Portal <i class="fa-solid fa-arrow-right-to-bracket"></i></button>
+    </div>
+    <div class="forms-card" data-aos="fade-up" data-aos-delay="300">
+      <i class="fa-solid fa-pills"></i>
+      <h3>Prescription Refills</h3>
+      <p>Request a refill online and pick it up, or have it shipped to your door.</p>
+      <button class="text-link" id="refillBtn">Request a Refill <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="payment-strip" data-aos="fade-up">
+      <span class="payment-label">Accepted Payment Methods</span>
+      <div class="payment-icons">
+        <i class="fa-brands fa-cc-visa"></i>
+        <i class="fa-brands fa-cc-mastercard"></i>
+        <i class="fa-brands fa-cc-amex"></i>
+        <i class="fa-brands fa-cc-paypal"></i>
+        <i class="fa-solid fa-money-check-dollar" title="CareCredit"></i>
+        <i class="fa-solid fa-mobile-screen-button" title="Apple Pay / Google Pay"></i>
+      </div>
+      <span class="payment-label">Pet Insurance Accepted: Trupanion · Healthy Paws · Nationwide · ASPCA · Lemonade</span>
+    </div>
+  </div>
+</section>
+
+<!-- Portal / Refill Modal -->
+<div class="modal" id="portalModal" aria-hidden="true">
+  <div class="modal-card">
+    <button class="modal-close" data-close-modal><i class="fa-solid fa-xmark"></i></button>
+    <h3 id="portalModalTitle"><i class="fa-solid fa-address-card"></i> Patient Portal</h3>
+    <form id="portalForm">
+      <div class="form-field"><label for="portalEmail">Email</label><input type="email" id="portalEmail" required></div>
+      <div class="form-field"><label for="portalPass">Password</label><input type="password" id="portalPass" required></div>
+      <button type="submit" class="btn btn-primary btn-block">Log In</button>
+    </form>
+    <p class="modal-note">Demo interface — connect to your practice management system to enable live records and refills.</p>
+  </div>
+</div>
+
+<!-- ============ FAQ ============ -->
+<section class="section section-tint" id="faq">
+  <div class="container faq-container">
+    <div class="section-head" data-aos="fade-up" data-section-heading="faq">
+      <span class="eyebrow">Good to Know</span>
+      <h2>Frequently Asked Questions</h2>
+    </div>
+    <div class="accordion" id="faqAccordion"></div>
+  </div>
+</section>
+
+<!-- ============ NEWSLETTER ============ -->
+<section class="newsletter">
+  <div class="container newsletter-inner" data-aos="zoom-in">
+    <div>
+      <h3>Never miss a wellness reminder</h3>
+      <p>Vaccination due-dates, seasonal pet-health tips, and clinic news — one short email a month.</p>
+    </div>
+    <form id="newsletterForm" class="newsletter-form">
+      <input type="email" placeholder="Your email address" required aria-label="Email address">
+      <button type="submit" class="btn btn-primary">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up" data-section-heading="contact">
+      <span class="eyebrow">Visit Us</span>
+      <h2>Contact Fernwood Animal Hospital</h2>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info" data-aos="fade-right">
+        <div class="contact-item"><i class="fa-solid fa-location-dot"></i><div><strong>Address</strong><span data-role="address-text">482 Willowmere Lane, Cedar Falls, CA 94582</span></div></div>
+        <div class="contact-item"><i class="fa-solid fa-phone"></i><div><strong>Phone</strong><span><a href="tel:+15550142" data-role="phone-link"><span data-role="phone-text">(555) 019-8142</span></a></span></div></div>
+        <div class="contact-item"><i class="fa-solid fa-envelope"></i><div><strong>Email</strong><span><a href="mailto:hello@fernwoodanimalhospital.example" data-role="email-link"><span data-role="email-text">hello@fernwoodanimalhospital.example</span></a></span></div></div>
+        <div class="contact-item"><i class="fa-solid fa-truck-medical"></i><div><strong>Emergency Hotline</strong><span><a href="tel:+15550199" data-role="emergency-link"><span data-role="emergency-text">(555) 019-9911</span></a> — 24/7</span></div></div>
+        <div class="contact-item"><i class="fa-solid fa-clock"></i><div><strong>Hours</strong><span data-role="hours-text">Mon–Fri 7:30am–7pm · Sat 8am–5pm · Sun 9am–2pm</span></div></div>
+        <div class="contact-item"><i class="fa-solid fa-square-parking"></i><div><strong>Parking</strong><span data-role="parking-text">Free lot parking behind the building, wheelchair accessible</span></div></div>
+
+        <div class="social-row">
+          <a href="#" aria-label="Facebook" data-social="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram" data-social="instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="TikTok" data-social="tiktok"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="#" aria-label="YouTube" data-social="youtube"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="contact-map" data-aos="fade-left">
+        <iframe title="Fernwood Animal Hospital location map" data-role="map-iframe" src="https://www.google.com/maps?q=San+Francisco+Bay+Area&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="#home" class="brand">
+        <svg width="30" height="30" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+          <path d="M24 44c-7-2-16-8-16-18a9 9 0 0 1 16-5.7A9 9 0 0 1 40 26c0 10-9 16-16 18Z" fill="var(--sage)"/>
+          <circle cx="14" cy="14" r="4.2" fill="var(--sand)"/><circle cx="24" cy="9" r="4.2" fill="var(--sand)"/>
+          <circle cx="34" cy="14" r="4.2" fill="var(--sand)"/><circle cx="9" cy="23" r="3.6" fill="var(--sand)"/>
+        </svg>
+        <span class="brand-text light">Fernwood <em>Animal Hospital</em></span>
+      </a>
+      <p data-role="footer-blurb">Compassionate, advanced veterinary care for every paw, feather, and fur since 2011.</p>
+      <div class="social-row">
+        <a href="#" aria-label="Facebook" data-social="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram" data-social="instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="TikTok" data-social="tiktok"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="#" aria-label="YouTube" data-social="youtube"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <a href="#about">About Us</a>
+      <a href="#doctors">Our Veterinarians</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#tips">Pet Care Tips</a>
+      <a href="#faq">FAQs</a>
+      <a href="#" id="careersLink">Careers</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Services</h4>
+      <a href="#services">Wellness Exams</a>
+      <a href="#services">Vaccinations</a>
+      <a href="#services">Pet Surgery</a>
+      <a href="#services">Dental Care</a>
+      <a href="#services">Grooming</a>
+      <a href="#services">All Services →</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Emergency</h4>
+      <p class="footer-emergency"><i class="fa-solid fa-phone-volume"></i> <a href="tel:+15550199" data-role="emergency-link"><span data-role="emergency-text">(555) 019-9911</span></a></p>
+      <p>Available 24 hours, every day of the year.</p>
+      <h4 class="footer-newsletter-h">Newsletter</h4>
+      <form id="footerNewsletterForm" class="footer-newsletter">
+        <input type="email" placeholder="Email address" required aria-label="Email address">
+        <button type="submit" aria-label="Subscribe"><i class="fa-solid fa-paper-plane"></i></button>
+      </form>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <p>&copy; <span id="year"></span> Fernwood Animal Hospital. All rights reserved.</p>
+    <div class="footer-legal">
+      <a href="#">Privacy Policy</a><a href="#">Terms &amp; Conditions</a><a href="#">Accessibility</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ COOKIE CONSENT ============ -->
+<div class="cookie-banner" id="cookieBanner" aria-hidden="true">
+  <p><i class="fa-solid fa-cookie-bite"></i> We use cookies to improve your experience on this site. <a href="#">Learn more</a></p>
+  <div class="cookie-actions">
+    <button class="btn btn-outline btn-sm" id="cookieDecline">Decline</button>
+    <button class="btn btn-primary btn-sm" id="cookieAccept">Accept</button>
+  </div>
+</div>
+
+<!-- ============ FLOATING ACTION BUTTONS ============ -->
+<div class="fab-stack">
+  <a href="tel:+15550199" class="fab fab-emergency" aria-label="Call emergency line" data-tooltip="Emergency Call" data-role="emergency-link"><i class="fa-solid fa-phone-volume"></i></a>
+  <a href="https://wa.me/15550142" class="fab fab-whatsapp" aria-label="Message on WhatsApp" data-tooltip="WhatsApp" data-role="whatsapp-link"><i class="fa-brands fa-whatsapp"></i></a>
+  <a href="#" class="fab fab-messenger" aria-label="Message on Messenger" data-tooltip="Messenger"><i class="fa-brands fa-facebook-messenger"></i></a>
+  <a href="#booking" class="fab fab-book" aria-label="Book an appointment" data-tooltip="Book Now"><i class="fa-solid fa-calendar-check"></i></a>
+</div>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<!-- ============ AI CHAT WIDGET ============ -->
+<div class="chat-widget">
+  <button class="chat-toggle" id="chatToggle" aria-label="Open pet care assistant chat"><i class="fa-solid fa-comment-medical"></i></button>
+  <div class="chat-panel" id="chatPanel" aria-hidden="true">
+    <div class="chat-header">
+      <div><i class="fa-solid fa-paw"></i> Willow, your pet-care assistant</div>
+      <button id="chatClose" aria-label="Close chat"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="chat-messages" id="chatMessages">
+      <div class="chat-msg bot">Hi! I'm Willow 🐾 I can help with hours, services, or booking basics. What's on your mind?</div>
+    </div>
+    <div class="chat-suggestions" id="chatSuggestions"></div>
+    <form class="chat-input-row" id="chatForm">
+      <input type="text" id="chatInput" placeholder="Ask about hours, services…" aria-label="Type a message">
+      <button type="submit" aria-label="Send"><i class="fa-solid fa-paper-plane"></i></button>
+    </form>
+    <p class="chat-note">Demo assistant with scripted answers — connect a live provider before launch.</p>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
