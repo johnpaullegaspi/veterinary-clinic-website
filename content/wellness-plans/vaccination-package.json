@@ -1,0 +1,12 @@
+{
+  "order": 5,
+  "name": "Vaccination Package",
+  "icon": "fa-syringe",
+  "price": 19,
+  "feats": [
+    "All core vaccines",
+    "Annual boosters",
+    "Digital records"
+  ],
+  "featured": false
+}

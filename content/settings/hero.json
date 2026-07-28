@@ -1,0 +1,43 @@
+{
+  "eyebrow": "Fernwood Animal Hospital · Est. 2011",
+  "headline": "Compassionate Care for Every Paw, Feather, and Fur",
+  "subheadline": "Providing exceptional veterinary care with advanced medical technology and a loving touch for every pet — from routine wellness visits to emergency medicine.",
+  "primaryCtaLabel": "Book an Appointment",
+  "emergencyCtaLabel": "Emergency Contact",
+  "trustBadges": [
+    {
+      "icon": "fa-shield-heart",
+      "text": "Fear-Free Certified"
+    },
+    {
+      "icon": "fa-star",
+      "text": "4.9/5 from 2,300+ reviews"
+    },
+    {
+      "icon": "fa-clock",
+      "text": "Open 7 days a week"
+    }
+  ],
+  "images": {
+    "main": {
+      "src": "https://plus.unsplash.com/premium_photo-1661916447474-235409b19e16?auto=format&fit=crop&w=900&q=80",
+      "alt": "Veterinarian gently holding a small dog on the exam table"
+    },
+    "secondary": {
+      "src": "https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?auto=format&fit=crop&w=600&q=80",
+      "alt": "Smiling pet owner holding her tabby cat"
+    }
+  },
+  "stats": [
+    {
+      "value": "12,400+",
+      "label": "Happy pets treated",
+      "icon": "fa-paw"
+    },
+    {
+      "value": "14 yrs",
+      "label": "Avg. vet experience",
+      "icon": "fa-user-doctor"
+    }
+  ]
+}

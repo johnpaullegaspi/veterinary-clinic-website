@@ -1,0 +1,12 @@
+{
+  "order": 3,
+  "name": "Annual Preventive",
+  "icon": "fa-shield-heart",
+  "price": 29,
+  "feats": [
+    "1 annual exam",
+    "Bloodwork panel",
+    "Parasite screening"
+  ],
+  "featured": true
+}

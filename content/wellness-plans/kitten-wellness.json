@@ -1,0 +1,12 @@
+{
+  "order": 2,
+  "name": "Kitten Wellness",
+  "icon": "fa-cat",
+  "price": 35,
+  "feats": [
+    "3 wellness visits",
+    "FVRCP + rabies series",
+    "Free deworming"
+  ],
+  "featured": false
+}

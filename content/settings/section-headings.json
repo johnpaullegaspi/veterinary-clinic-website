@@ -1,0 +1,57 @@
+{
+  "doctors": {
+    "eyebrow": "Meet the Team",
+    "heading": "Meet Our Veterinarians",
+    "subtext": "Board-certified, endlessly patient, and just as obsessed with your pet as you are."
+  },
+  "services": {
+    "eyebrow": "What We Treat",
+    "heading": "Comprehensive Veterinary Services",
+    "subtext": "From first puppy visit to golden years, one team follows your pet through every stage."
+  },
+  "whyUs": {
+    "eyebrow": "Why Fernwood",
+    "heading": "Why Pet Parents Choose Us",
+    "subtext": ""
+  },
+  "wellness": {
+    "eyebrow": "Wellness Membership",
+    "heading": "Pet Wellness Programs",
+    "subtext": "Predictable monthly pricing that bundles the care every pet needs, with no surprise bills."
+  },
+  "gallery": {
+    "eyebrow": "Life at Fernwood",
+    "heading": "Gallery",
+    "subtext": ""
+  },
+  "testimonials": {
+    "eyebrow": "Client Stories",
+    "heading": "What Pet Parents Say",
+    "subtext": ""
+  },
+  "booking": {
+    "eyebrow": "Book a Visit",
+    "heading": "Schedule Your Pet's Appointment",
+    "subtext": "Tell us about your pet and pick a time that works. Our care team confirms every request within one business hour."
+  },
+  "tips": {
+    "eyebrow": "Pet Parent Library",
+    "heading": "Pet Care Tips",
+    "subtext": ""
+  },
+  "facilities": {
+    "eyebrow": "Behind the Scenes",
+    "heading": "Our Facilities & Standards",
+    "subtext": "Modern equipment, rigorous infection control, and a hospital that's spotless from the lobby to the surgery suite."
+  },
+  "faq": {
+    "eyebrow": "Good to Know",
+    "heading": "Frequently Asked Questions",
+    "subtext": ""
+  },
+  "contact": {
+    "eyebrow": "Visit Us",
+    "heading": "Contact Fernwood Animal Hospital",
+    "subtext": ""
+  }
+}

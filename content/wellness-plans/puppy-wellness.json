@@ -1,0 +1,12 @@
+{
+  "order": 1,
+  "name": "Puppy Wellness",
+  "icon": "fa-paw",
+  "price": 39,
+  "feats": [
+    "3 wellness visits",
+    "Core vaccine series",
+    "Free deworming"
+  ],
+  "featured": false
+}

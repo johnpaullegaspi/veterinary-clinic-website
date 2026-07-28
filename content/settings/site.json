@@ -1,0 +1,22 @@
+{
+  "name": "Fernwood Animal Hospital",
+  "tagline": "Animal Hospital",
+  "founded": "Est. 2011",
+  "phone": "(555) 019-8142",
+  "phoneHref": "+15550142",
+  "emergencyPhone": "(555) 019-9911",
+  "emergencyPhoneHref": "+15550199",
+  "email": "hello@fernwoodanimalhospital.example",
+  "address": "482 Willowmere Lane, Cedar Falls, CA 94582",
+  "hours": "Mon–Fri 7:30am–7pm · Sat 8am–5pm · Sun 9am–2pm",
+  "parking": "Free lot parking behind the building, wheelchair accessible",
+  "mapEmbedUrl": "https://www.google.com/maps?q=San+Francisco+Bay+Area&output=embed",
+  "whatsapp": "https://wa.me/15550142",
+  "social": {
+    "facebook": "#",
+    "instagram": "#",
+    "tiktok": "#",
+    "youtube": "#"
+  },
+  "footerBlurb": "Compassionate, advanced veterinary care for every paw, feather, and fur since 2011."
+}

@@ -1,0 +1,12 @@
+{
+  "order": 4,
+  "name": "Senior Wellness",
+  "icon": "fa-heart-circle-plus",
+  "price": 45,
+  "feats": [
+    "2 exams / year",
+    "Senior bloodwork",
+    "Joint & organ screening"
+  ],
+  "featured": false
+}

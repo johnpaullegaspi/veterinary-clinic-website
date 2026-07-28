@@ -1,0 +1,12 @@
+{
+  "order": 6,
+  "name": "Dental Care Plan",
+  "icon": "fa-tooth",
+  "price": 25,
+  "feats": [
+    "Annual cleaning",
+    "10% off dental work",
+    "At-home care kit"
+  ],
+  "featured": false
+}
